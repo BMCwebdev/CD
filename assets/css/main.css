@@ -5974,3 +5974,41 @@ header p {
 }
 }
 
+
+
+/*
+#hero {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+ @keyframes hero2FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#hero2 {
+animation-name: hero2FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction: alternate;
+}
+*/
+
+.overflowhidden {
+	overflow: hidden;
+}
