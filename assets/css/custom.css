@@ -1,0 +1,39 @@
+/* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+		.img-bg-bottom {
+			background-position: calc(900px) bottom !important;
+			background-size: cover;
+		}
+    }
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+		.img-bg-bottom {
+			background-position: calc(1100px) bottom !important;
+			background-size: cover;
+		}
+    }
+
+/* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+		.img-bg-bottom {
+			background-position: center bottom !important;
+			background-size: cover;
+		}
+    }
+
+/* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+		.img-bg-bottom {
+			background-position: center bottom !important;
+			background-size: cover;
+		}
+    }
+
+/* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+		.img-bg-bottom {
+			background-position: center bottom !important;
+			background-size: cover;
+		}
+    }
