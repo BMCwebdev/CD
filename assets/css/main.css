@@ -5863,7 +5863,7 @@ a.changecolor {
 
 #hero h2 {
 	text-align: center;
-    text-shadow: 2px 2px 0 #b3b3b3;
+/*     text-shadow: 2px 2px 0 #b3b3b3; */
 }
 
 @media (max-width: 1024px) {
