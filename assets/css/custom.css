@@ -37,3 +37,6 @@
 			background-size: cover;
 		}
     }
+
+
+-webkit-filter: sepia(0.8) hue-rotate (200deg)
