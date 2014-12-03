@@ -8,7 +8,6 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<!-- 		<meta name="viewport" content="user-scalable=yes, width=920" /> -->
 		<meta name="description" content="">
 		<meta name="author" content="">
 		
@@ -22,10 +21,21 @@
 		<link href="assets/css/green.css" rel="stylesheet" title="Color">
 		<link href="assets/css/owl.carousel.css" rel="stylesheet">
 		<link href="assets/css/owl.transitions.css" rel="stylesheet">
-<!-- 		<link href="assets/css/animate.min.css" rel="stylesheet"> -->
 		
 		<!-- Fonts -->
-		<style>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700" rel='stylesheet' type='text/css'>
+
+		<!-- Icons/Glyphs -->
+		<link href="assets/fonts/fontello.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		
+
+<style>
+	
 			@font-face { font-family: 'Sanchezregular'; src: url('assets/fonts/Sanchezregular.otf'); } 
 			@font-face { font-family: 'Sanchezextralightital'; src: url('assets/fonts/Sanchezextralight-ita.otf'); } 
 			@font-face { font-family: 'Sanchezextralight'; font-weight: bold; src: url('assets/fonts/Sanchezextralight.otf');}
@@ -36,73 +46,7 @@
 			h2 { font-family: 'Sanchezbold', sans-serif; }
 			h3 { font-family: 'Sanchezregular', sans-serif; }
 			.navbar-nav > li > a { font-family: 'Sanchezregular', sans-serif; }
-		</style>
-		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-
-<!-- 		<link href="http://fonts.googleapis.com/css?family=Lato:400,900,300,700" rel="stylesheet"> -->
-<!-- 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet"> -->
-		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700" rel='stylesheet' type='text/css'>
-<!-- 		<link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed&subset=latin" rel='stylesheet' type='text/css'> -->
-<!-- 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin" rel='stylesheet' type='text/css'> -->
-<!-- CUFON FONTS -->
-<!--
-		<script type="text/javascript" src="assets/js/Sanchez_ExtraLight_250-Sanchez_SemiBold_400-Sanchez_ExtraLight_italic_250-Sanchez_SemiBold_italic_400.font.js"></script>
-		<script type="text/javascript" src="assets/js/cufon-yui.js"></script>
--->
-<!-- CUFON CLASS AND ID REPLACMENTS -->
-<!--
-	<script type="text/javascript">
-		Cufon.replace('body, h1, h2, h3, h4, h5');
-		Cufon.replace('#hero');
-		Cufon.replace('.fadeInUp');
-		Cufon.replace('p');
-	</script>
--->
-<!-- SCRIPT TO MAKE CUFON WORK IN CONJUNCTION WITH FLOWTYPE -->
-<!--
-<script type="text/javascript">
-jQuery(window).bind('resize', (function() {
-  var timer;
-  return function() {
-    clearTimeout(timer);
-    timer = setTimeout(function() {
-      Cufon.refresh();
-    }, 50); 
-  };
-})());
-</script>
--->
-
-
-		<!-- Icons/Glyphs -->
-		<link href="assets/fonts/fontello.css" rel="stylesheet">
-		
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/images/favicon.ico">
-		
-		<!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
-		
-<!--
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			
-			ga('create', 'UA-XXXX-Y', 'fuviz.com');
-			ga('send', 'pageview');
-		</script>
--->
-
-
-<style>
-body {
-	background:none repeat scroll 0 0 #ffffff;
-}
+	
 .gif {
     display: block;
     height: auto;
@@ -110,39 +54,83 @@ body {
     margin-right: auto;
     width: 100%;
 }
-/*
-#cd_hype_container {
-	margin-left: auto;
-	margin-right: auto;
-}
-#hype-obj-DzSwscYx9L8zokoU {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-.MsoNormal {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-*/
-
-/*
-#delay.fadeInUp {
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
-}
-*/
-
 footer {
-    bottom: 0;
+    bottom: -200px;
     font-size: 14px;
     line-height: 22px;
     position: absolute;
     width: 100%;
 }
-</style>
+			body {
+				background-color: #FFFFFF;
+				margin: 0px;
+			}
+
+			#scalecontainer{
+				-moz-transform-origin: left top;
+				-webkit-transform-origin: left top;
+				-ms-transform-origin: left top;
+				-o-transform-origin: left top;
+				transform-origin: left top;
+				width: 920px;
+				margin: 0 auto;
+				margin-top: 100px !important;
+			}
+			
+
+		</style>
+
+		<script src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+
+		<script type="text/javascript" language="javascript">
+			var alsoenlarge = true;
+
+			$(function(){
+				if(isScalePossible()){
+					$('body').css({overflow:'scroll'});
+					$('#scalecontainer').css({position: 'absolute', margin: 0, paddingBottom: 100});
+
+					// Run scale function on start
+					scaleSite();
+					scaleSite();
+
+					// Run scale function on browser resize
+					$(window).resize(scaleSite);
+				}
+			});
+
+			function scaleSite()
+			{
+				containerw = window.innerWidth * 1; /* The width of the div, currently set to half of the window's width */
+				containerh = 600; /* The maximum possible height of the div; the recommend size for this is equal to or larger than the H of the element. */
+				sitew = $('#scalecontainer').width();
+				siteh = $('#scalecontainer').height();
+				f = containerw/sitew;
+				f = containerh/siteh<f?containerh/siteh:f;
+				if(!alsoenlarge && f>1) f = 1;
+				$('#scalecontainer').css({
+					"-moz-transform"    : "scale("+f+")",
+					"-webkit-transform" : "scale("+f+")",
+					"-ms-transform"     : "scale("+f+")",
+					"-o-transform"      : "scale("+f+")",
+					"transform"         : "scale("+f+")",
+					"left"              : ((containerw-(sitew*f))/2)+"px",
+					"top"               : "140px"
+				});
+			}
+
+			function isScalePossible()
+			{
+				can = 'MozTransform' in document.body.style;
+				if(!can) can = 'webkitTransform' in document.body.style;
+				if(!can) can = 'msTransform' in document.body.style;
+				if(!can) can = 'OTransform' in document.body.style;
+				if(!can) can = 'transform' in document.body.style;
+				if(!can) can = 'Transform' in document.body.style;
+				return can;
+			}
+		</script>
+
 
 	</head>
 	
@@ -160,18 +148,6 @@ footer {
 							<li><a href="index.html#"><i class="icon-mail-1 contact"></i>info@competitiondynamics.com</a></li>
 							<li><i class="icon-mobile contact"></i>(617) 394-1940</li>
 						</ul><!-- /.info -->
-						
-<!--
-						<ul class="social pull-right">
-							<li><a href="index.html#"><i class="icon-s-facebook"></i></a></li>
-							<li><a href="index.html#"><i class="icon-s-gplus"></i></a></li>
-							<li><a href="index.html#"><i class="icon-s-twitter"></i></a></li>
-							<li><a href="index.html#"><i class="icon-s-pinterest"></i></a></li>
-							<li><a href="index.html#"><i class="icon-s-behance"></i></a></li>
-							<li><a href="index.html#"><i class="icon-s-dribbble"></i></a></li>
-						</ul>
--->
-<!-- /.social -->
 						
 						<!-- ============================================================= LOGO MOBILE ============================================================= -->
 						
@@ -193,11 +169,6 @@ footer {
 					<div class="navbar-collapse collapse">
 						<div class="container">
 							
-							<!-- ============================================================= LOGO ============================================================= -->
-							
-<!-- 							<a class="navbar-brand" href="index.html"><img src="assets/images/cdlogo.png" class="logo" alt=""></a> -->
-							
-							<!-- ============================================================= LOGO : END ============================================================= -->
 							
 							
 							<!-- ============================================================= MAIN NAVIGATION ============================================================= -->
@@ -228,20 +199,6 @@ footer {
 									<a href="recent.html" class="dropdown-toggle ">Recent</a>
 								</li><!-- /.dropdown -->
 								
-<!--
-								<li class="dropdown pull-right searchbox">
-									<a href="index.html#" class="dropdown-toggle js-activated"><i class="icon-search"></i></a>
--->
-											  
-<!--
-									<div class="dropdown-menu">
-										<form id="search" class="navbar-form search" role="search">
-											<input type="search" class="form-control" placeholder="Type to search">
-											<button type="submit" class="btn btn-default btn-submit icon-right-open"></button>
-										</form>
-									</div>
---><!-- /.dropdown-menu -->
-								<!-- </li> --><!-- /.searchbox -->
 								
 							</ul><!-- /.nav -->
 							
@@ -259,80 +216,19 @@ footer {
 		<!-- ============================================================= MAIN ============================================================= -->
 		
 	
-		
-<!--
-		<style>
-audio, canvas, progress, video {
-    display: inline-block;
-    max-height: 100%;
-    vertical-align: baseline;
-    width: 100%;
-}
-html {
-	background-color: #FFFEFF;
-}
-
-main {
-	background-color: #FFFEFF;
-}
-
-footer {
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-}
-.offwhite {
-	padding-top: 20px;
-}
-
-.offwhite.container {
-padding-left: 0px;
-padding-right: 0px;
-}
-</style>
--->
-
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<!--
-<script src="covervid-gh-pages/covervid.min.js"></script>
-<div class="offwhite container">
-<div class="col-xs-12">
-<div class="covervid-wrapper">
-    <video class="covervid-video" autoplay  poster="img/video-fallback.png">
-        <source src="videos/CD5.webm" type="video/webm">
-        <source src="videos/CD5.mp4" type="video/mp4">
-		<source src="videos/CD5.ogv" type="video/ogv">
-    </video>
-</div>
-</div>
-</div>
 
--->
-<!--
-<div class="container">
-<div class="row">
-<div class="embed-responsive embed-responsive-16by9 center-block">
-  <iframe class="embed-responsive-item" src="updatedCD2.html"></iframe>
-</div>
-</div>
-</div>
--->
 
-<div class="container" style="height:500px;">
-<div class="row" style="height:100%;">
+<div id = "scalecontainer">
 
-	<div id="updatedcd2_hype_container" style="position:relative;overflow:hidden;width:100%;height:100%;left:12%;">
-		<script type="text/javascript" charset="utf-8" src="updatedCD2.hyperesources/updatedcd2_hype_generated_script.js?40613"></script>
+	<div id="damnithype_hype_container" style="position:relative;overflow:scroll;width:920px;height:480px;">
+		<script type="text/javascript" charset="utf-8" src="damnithype.hyperesources/damnithype_hype_generated_script.js?51816"></script>
 	</div>
 </div>
-</div>
 
 
-		<script>
-		$('.covervid-video').coverVid(1920, 1080);
-		</script>
-			
+
 		</main>
 		
 		<!-- ============================================================= MAIN : END ============================================================= -->
@@ -361,25 +257,9 @@ padding-right: 0px;
 		<!-- JavaScripts placed at the end of the document so the pages load faster -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.easing.1.3.min.js"></script>
-<!--
-		<script src="assets/js/jquery.form.js"></script>
-		<script src="assets/js/jquery.validate.min.js"></script>
--->
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
 		<script src="assets/js/skrollr.min.js"></script>
-<!--
-		<script src="assets/js/skrollr.stylesheets.min.js"></script>
-		<script src="assets/js/waypoints.min.js"></script>
-		<script src="assets/js/waypoints-sticky.min.js"></script>
-		<script src="assets/js/owl.carousel.min.js"></script>
-		<script src="assets/js/jquery.isotope.min.js"></script>
-		<script src="assets/js/jquery.easytabs.min.js"></script>
-		<script src="assets/js/google.maps.api.v3.js"></script>
--->
-<!-- 		<script src="assets/js/viewport-units-buggyfill.js"></script> -->
-<!-- 		<script src="assets/js/scripts.js"></script> -->
-		
 		<!-- For demo purposes – can be removed on production -->
 		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
 		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
@@ -390,44 +270,6 @@ padding-right: 0px;
 		<link href="assets/css/navy.css" rel="alternate stylesheet" title="Navy color">
 		<link href="assets/css/gray.css" rel="alternate stylesheet" title="Gray color">
 		
-<!-- 		<script src="switchstylesheet/switchstylesheet.js"></script> -->
-		
-<!--
-		<script>
-			$(document).ready(function(){ 
-				$(".changecolor").switchstylesheet( { seperator:"color"} );
-			});
-		</script>
--->
-		<!-- For demo purposes – can be removed on production : End -->
-		
-		
-<!--
-		<script>
-		$(window).load(function(){
-		$('#test').removeClass('animated fadeInUp').addClass('animated zoomInDown');
-		});
-		</script>
--->
-		
-<!--
-		<script>
-		$('#test').removeClass('animated' + fadeInUp).addClass('animated bounceOutLeft');
-		</script>
--->
-
-
-<!--
-<script src="assets/js/jquery.responsiveiframe.js"></script>
-
-<script>
-  ;(function($){          
-      $(function(){
-        $('#myIframeID').responsiveIframe({ xdomain: '*'});
-      });        
-  })(jQuery);
-</script>
--->
 
 	</body>
 </html>
