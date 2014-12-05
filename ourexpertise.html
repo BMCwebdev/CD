@@ -144,12 +144,12 @@ body {
 #hero {
 	background-image: url('assets/images/MeetingDoutone8.jpg');
 		filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
-	
-	    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+	-webkit-filter: grayscale(100%);
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 3s; /* Firefox < 16 */
+	-ms-animation: fadein 3s; /* Internet Explorer */
+	-o-animation: fadein 3s; /* Opera < 12.1 */
+	animation: fadein 3s;
 }
 
 
