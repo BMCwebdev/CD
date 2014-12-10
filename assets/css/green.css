@@ -59,7 +59,7 @@ ul.circled li:before,
 .tint-bg.img-bg-soft:before,
 .tint-bg.img-bg-softer:before,
 .tooltip-inner {
-	background-color: #214f8b;
+/* 	background-color: #214f8b; */
 }
 
 .btn:hover,

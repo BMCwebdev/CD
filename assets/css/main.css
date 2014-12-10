@@ -672,8 +672,10 @@ figure.post-media + * {
 	opacity: .57;
 }
 .tint-bg.img-bg-soft:before {
+/*
 	background-color: #4B8FC8;
 	opacity: .84;
+*/
 }
 .light-bg.img-bg-softer:before {
 	background-color: #F2F5F7;
@@ -835,7 +837,7 @@ iframe + iframe {
     color: #FFF;
 }
 .tint-bg {
-    background-color: #4B8FC8;
+/*     background-color: #4B8FC8; */
 	color: #FFF;
 	padding: 2px 8px;
 	margin-top: -2px;

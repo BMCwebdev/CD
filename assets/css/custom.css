@@ -45,3 +45,14 @@
 .test {
 	max-height: 465px;
 }
+
+.test {
+  background-color:none;
+  transition:background-color 0.5s ease;
+ 
+}
+
+.clicked {
+  background-color:#214f8b;
+  transition:background-color 0.5s ease 0.7s;
+}
