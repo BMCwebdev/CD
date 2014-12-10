@@ -40,10 +40,10 @@
 
 
 #hero {
-	max-height: 465px;
+	min-height: 528px;
 }
 .test {
-	max-height: 465px;
+	min-height: 528px;
 }
 
 .test {
