@@ -9,7 +9,9 @@
         js='js/',
         fonts = {
             '\'MS Serif\'': '@font-face { font-family: \'Sanchezextralight\'; font-weight: bold; src: url(\'fonts/Sanchezextralight.otf\');}',
-            'Sanchez': '<link href=\'https://fonts.googleapis.com/css?family=Sanchez&subset=latin\' rel=\'stylesheet\' type=\'text/css\'>'        },
+            'Sanchez': '<link href=\'https://fonts.googleapis.com/css?family=Sanchez&subset=latin\' rel=\'stylesheet\' type=\'text/css\'>',
+            'SanchezExtraLight': '@font-face { font-family: \'Sanchezextralight\'; font-weight: bold; src: url(\'/assets/fonts/Sanchezextralight.otf\');}',
+            'Sanchezregular': '@font-face { font-family: \'Sanchezregular\'; src: url(\'/assets/fonts/Sanchezregular.otf\'); } '        },
         opts = {
             'gAudioPreloadPreference': 'auto',
             'gVideoPreloadPreference': 'auto'
@@ -77,7 +79,7 @@
                             opacity: 0,
                             text: "We analyze, solve and testify about economic problems at the intersection of antitrust, intellectual property, and international trade.",
                             align: "center",
-                            font: ['Sanchez', [26, "px"], "rgba(30,74,136,1.00)", "400", "none solid rgb(0, 0, 0)", "normal", "break-word", "normal"]
+                            font: ['Sanchezregular', [26, "px"], "rgba(30,74,136,1.00)", "400", "none solid rgb(0, 0, 0)", "normal", "break-word", "normal"]
                         }
                     ],
                     style: {
