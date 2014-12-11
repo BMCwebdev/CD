@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<!-- replaced colors - was -> is = #4B8FC8 - #4B8FC8 -->
+
+<html lang="en">
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		
+		<title>Competition Dynamics</title>
+		
+		<!-- Bootstrap Core CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Customizable CSS -->
+		<link href="assets/css/main.css" rel="stylesheet" data-skrollr-stylesheet>
+		<link href="assets/css/green.css" rel="stylesheet" title="Color">
+		<link href="assets/css/owl.carousel.css" rel="stylesheet">
+		<link href="assets/css/owl.transitions.css" rel="stylesheet">
+		
+		<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700" rel='stylesheet' type='text/css'>
+
+		<!-- Icons/Glyphs -->
+		<link href="assets/fonts/fontello.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		
+
+<style>
+	
+			@font-face { font-family: 'Sanchezregular'; src: url('assets/fonts/Sanchezregular.otf'); } 
+			@font-face { font-family: 'Sanchezextralightital'; src: url('assets/fonts/Sanchezextralight-ita.otf'); } 
+			@font-face { font-family: 'Sanchezextralight'; font-weight: bold; src: url('assets/fonts/Sanchezextralight.otf');}
+			@font-face { font-family: 'Sanchezboldital'; font-weight: bold; src: url('assets/fonts/Sanchezsemibold-ita.otf');}
+			@font-face { font-family: 'Sanchezbold'; font-weight: bold; src: url('assets/fonts/Sanchezsemibold.otf');}
+			p { font-family: 'Sanchezregular', sans-serif; }
+			body { font-family: 'Sanchezregular', sans-serif; }
+			h2 { font-family: 'Sanchezbold', sans-serif; }
+			h3 { font-family: 'Sanchezregular', sans-serif; }
+			.navbar-nav > li > a { font-family: 'Sanchezregular', sans-serif; }
+	
+.gif {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+footer {
+    bottom: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    position: absolute;
+    width: 100%;
+}
+			body {
+				background-color: #FFFFFF;
+				margin: 0px;
+			}
+
+			#scalecontainer{
+				-moz-transform-origin: left top;
+				-webkit-transform-origin: left top;
+				-ms-transform-origin: left top;
+				-o-transform-origin: left top;
+				transform-origin: left top;
+				width: 920px;
+				margin: 0 auto;
+				margin-top: 1px !important;
+			}
+html {
+	height: 100% !important;
+}
+		</style>
+
+		<script src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+
+		<script type="text/javascript" language="javascript">
+			var alsoenlarge = true;
+
+			$(function(){
+				if(isScalePossible()){
+					$('body').css({display:'block'});
+// 					IT WAS $('body').css({overflow:'scroll'});
+					$('#scalecontainer').css({position: 'relative', margin: 0, paddingBottom: 100});
+
+					// Run scale function on start
+					scaleSite();
+					scaleSite();
+
+					// Run scale function on browser resize
+					$(window).resize(scaleSite);
+				}
+			});
+
+			function scaleSite()
+			{
+				containerw = window.innerWidth * 1; /* The width of the div, currently set to half of the window's width */
+				containerh = 600; /* The maximum possible height of the div; the recommend size for this is equal to or larger than the H of the element. */
+				sitew = $('#scalecontainer').width();
+				siteh = $('#scalecontainer').height();
+				f = containerw/sitew;
+				f = containerh/siteh<f?containerh/siteh:f;
+				if(!alsoenlarge && f>1) f = 1;
+				$('#scalecontainer').css({
+					"-moz-transform"    : "scale("+f+")",
+					"-webkit-transform" : "scale("+f+")",
+					"-ms-transform"     : "scale("+f+")",
+					"-o-transform"      : "scale("+f+")",
+					"transform"         : "scale("+f+")",
+					"left"              : ((containerw-(sitew*f))/2)+"px",
+					"top"               : "auto"
+				});
+			}
+
+			function isScalePossible()
+			{
+				can = 'MozTransform' in document.body.style;
+				if(!can) can = 'webkitTransform' in document.body.style;
+				if(!can) can = 'msTransform' in document.body.style;
+				if(!can) can = 'OTransform' in document.body.style;
+				if(!can) can = 'transform' in document.body.style;
+				if(!can) can = 'Transform' in document.body.style;
+				return can;
+			}
+		</script>
+
+<script>
+		$(document).ready(function(){
+  		$(window).resize(function(){
+			    var footerHeight = $('.footer').outerHeight();
+			    var stickFooterPush = $('.push').height(footerHeight);
+		
+    			$('.wrapper').css({'marginBottom':'-' + footerHeight + 'px'});
+		    });
+		
+    		$(window).resize();
+	    });
+</script>
+	</head>
+	
+	<body>
+		
+		<!-- ============================================================= HEADER ============================================================= -->
+		
+		<header>
+			<div class="navbar">
+				
+				<div class="navbar-header">
+					<div class="container">
+						
+						<ul class="info pull-left">
+							<li><a href="index.html#"><i class="icon-mail-1 contact"></i>info@competitiondynamics.com</a></li>
+							<li><i class="icon-mobile contact"></i>(617) 394-1940</li>
+						</ul><!-- /.info -->
+						
+						<!-- ============================================================= LOGO MOBILE ============================================================= -->
+						
+						<a class="navbar-brand" href="index.html"><img src="CD-logo-recolored3.png" class="logo" alt=""></a>
+						
+						<!-- ============================================================= LOGO MOBILE : END ============================================================= -->
+						
+						<a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
+						
+					</div><!-- /.container -->
+				</div><!-- /.navbar-header -->
+				
+				<div class="logoheader">
+							<a href="index.html"><img src="CD-logo-recolored3.png" class="center-block logo" alt=""></a>
+				</div>
+
+				
+				<div class="yamm">
+					<div class="navbar-collapse collapse">
+						<div class="container">
+							
+							
+							
+							<!-- ============================================================= MAIN NAVIGATION ============================================================= -->
+							
+							<ul class="nav navbar-nav center-block">
+								
+								<li class="dropdown">
+									<a href="index.html" class="dropdown-toggle ">Home</a>
+								</li>
+								
+								<li class="dropdown">
+									<a href="aboutus.html" class="dropdown-toggle ">About Us</a>
+								</li><!-- /.dropdown -->
+								
+								<li class="dropdown">
+									<a href="ourexpertise.html" class="dropdown-toggle ">Our Expertise</a>
+								</li><!-- /.dropdown -->
+								
+								<li class="dropdown">
+									<a href="resources.html" class="dropdown-toggle ">Resources</a>
+								</li><!-- /.dropdown -->
+								
+								<li class="dropdown">
+									<a href="contact.html" class="dropdown-toggle ">Contact</a>
+								</li><!-- /.dropdown -->
+								
+								<li class="dropdown">
+									<a href="recent.html" class="dropdown-toggle ">Recent</a>
+								</li><!-- /.dropdown -->
+								
+								
+							</ul><!-- /.nav -->
+							
+							<!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
+							
+						</div><!-- /.container -->
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.yamm -->
+			</div><!-- /.navbar -->
+		</header>
+		
+		<!-- ============================================================= HEADER : END ============================================================= -->
+		
+		
+		<!-- ============================================================= MAIN ============================================================= -->
+		
+	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+<div id = "scalecontainer" style="margin-left:auto!important;margin-right:auto!important;position:relative!important;">
+
+	<div id="damnithype_hype_container" style="position:relative;overflow:hidden;width:920px;height:480px;">
+		<script type="text/javascript" charset="utf-8" src="damnithype.hyperesources/damnithype_hype_generated_script.js?51816"></script>
+	</div>
+</div>
+
+
+
+		</main>
+		
+		<!-- ============================================================= MAIN : END ============================================================= -->
+		
+		
+		<!-- ============================================================= FOOTER ============================================================= -->
+		
+		<footer class="dark-bg footer">		  
+			<div class="footer-bottom">
+				<div class="container inner">
+					<p class="pull-left">© 2014 Competition Dynamics. All rights reserved.</p>
+					<ul class="footer-menu pull-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="ourexpertise.html">Our Expertise</a></li>
+						<li><a href="resources.html">Resources</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="recent.html">Recent</a></li>
+					</ul><!-- .footer-menu -->
+				</div><!-- .container -->
+			</div><!-- .footer-bottom -->
+		</footer>
+		
+		<!-- ============================================================= FOOTER : END ============================================================= -->
+		
+		<!-- JavaScripts placed at the end of the document so the pages load faster -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.easing.1.3.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+		<script src="assets/js/skrollr.min.js"></script>
+		<!-- For demo purposes – can be removed on production -->
+		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
+		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
+		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
+		<link href="assets/css/pink.css" rel="alternate stylesheet" title="Pink color">
+		<link href="assets/css/purple.css" rel="alternate stylesheet" title="Purple color">
+		<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
+		<link href="assets/css/navy.css" rel="alternate stylesheet" title="Navy color">
+		<link href="assets/css/gray.css" rel="alternate stylesheet" title="Gray color">
+		
+
+	</body>
+</html>

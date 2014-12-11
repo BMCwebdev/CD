@@ -56,3 +56,7 @@
   background-color:#214f8b;
   transition:background-color 0.5s ease 0.7s;
 }
+
+.MsoNormal p {
+	font-size: 0.7em !important;
+}

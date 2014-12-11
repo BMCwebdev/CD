@@ -3,15 +3,34 @@
 <!-- replaced colors - was -> is = #4B8FC8 - #4B8FC8 -->
 
 <html lang="en">
+	
+
 	<head>
 		<!-- Meta -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 		
 		<title>Competition Dynamics</title>
+		
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="edge_includes/edge.5.0.0.min.js"></script>
+    <style>
+        .edgeLoad-EDGE-78790044 { visibility:hidden; }
+    </style>
+<script>
+   AdobeEdge.loadComposition('newanimation', 'EDGE-78790044', {
+    scaleToFit: "width",
+    centerStage: "horizontal",
+    minW: "0",
+    maxW: "undefined",
+    width: "920px",
+    height: "480px"
+}, {dom: [ ]}, {dom: [ ]});
+</script>
+<!--Adobe Edge Runtime End-->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 		
 		<!-- Bootstrap Core CSS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -19,122 +38,51 @@
 		<!-- Customizable CSS -->
 		<link href="assets/css/main.css" rel="stylesheet" data-skrollr-stylesheet>
 		<link href="assets/css/green.css" rel="stylesheet" title="Color">
-		<link href="assets/css/owl.carousel.css" rel="stylesheet">
-		<link href="assets/css/owl.transitions.css" rel="stylesheet">
 		
 		<!-- Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-
-		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700" rel='stylesheet' type='text/css'>
-
-		<!-- Icons/Glyphs -->
-		<link href="assets/fonts/fontello.css" rel="stylesheet">
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		<!-- Icons/Glyphs -->
+		<link href="assets/fonts/fontello.css" rel="stylesheet">
 		
-
 <style>
-	
-			@font-face { font-family: 'Sanchezregular'; src: url('assets/fonts/Sanchezregular.otf'); } 
-			@font-face { font-family: 'Sanchezextralightital'; src: url('assets/fonts/Sanchezextralight-ita.otf'); } 
-			@font-face { font-family: 'Sanchezextralight'; font-weight: bold; src: url('assets/fonts/Sanchezextralight.otf');}
-			@font-face { font-family: 'Sanchezboldital'; font-weight: bold; src: url('assets/fonts/Sanchezsemibold-ita.otf');}
-			@font-face { font-family: 'Sanchezbold'; font-weight: bold; src: url('assets/fonts/Sanchezsemibold.otf');}
-			p { font-family: 'Sanchezregular', sans-serif; }
-			body { font-family: 'Sanchezregular', sans-serif; }
-			h2 { font-family: 'Sanchezbold', sans-serif; }
-			h3 { font-family: 'Sanchezregular', sans-serif; }
-			.navbar-nav > li > a { font-family: 'Sanchezregular', sans-serif; }
-	
-.gif {
-    display: block;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-footer {
-    bottom: -200px;
-    font-size: 14px;
-    line-height: 22px;
-    position: absolute;
-    width: 100%;
-}
-			body {
-				background-color: #FFFFFF;
-				margin: 0px;
-			}
 
-			#scalecontainer{
-				-moz-transform-origin: left top;
-				-webkit-transform-origin: left top;
-				-ms-transform-origin: left top;
-				-o-transform-origin: left top;
-				transform-origin: left top;
-				width: 920px;
-				margin: 0 auto;
-				margin-top: 100px !important;
-			}
-			
 
-		</style>
+    * {
+    padding: 0;
+    }
+    html, body {
+    height: 100%;
+    }
+    .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    padding: 0 auto -4em;
+    }
+    .footer, .push {
+    height: 4em;
+    }
+    .push {
+	    background-color: white;
+    }
+    
+    
+    
+html,body{min-height:100%;}
 
-		<script src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
 
-		<script type="text/javascript" language="javascript">
-			var alsoenlarge = true;
+</style>
 
-			$(function(){
-				if(isScalePossible()){
-					$('body').css({overflow:'scroll'});
-					$('#scalecontainer').css({position: 'absolute', margin: 0, paddingBottom: 100});
 
-					// Run scale function on start
-					scaleSite();
-					scaleSite();
 
-					// Run scale function on browser resize
-					$(window).resize(scaleSite);
-				}
-			});
-
-			function scaleSite()
-			{
-				containerw = window.innerWidth * 1; /* The width of the div, currently set to half of the window's width */
-				containerh = 600; /* The maximum possible height of the div; the recommend size for this is equal to or larger than the H of the element. */
-				sitew = $('#scalecontainer').width();
-				siteh = $('#scalecontainer').height();
-				f = containerw/sitew;
-				f = containerh/siteh<f?containerh/siteh:f;
-				if(!alsoenlarge && f>1) f = 1;
-				$('#scalecontainer').css({
-					"-moz-transform"    : "scale("+f+")",
-					"-webkit-transform" : "scale("+f+")",
-					"-ms-transform"     : "scale("+f+")",
-					"-o-transform"      : "scale("+f+")",
-					"transform"         : "scale("+f+")",
-					"left"              : ((containerw-(sitew*f))/2)+"px",
-					"top"               : "140px"
-				});
-			}
-
-			function isScalePossible()
-			{
-				can = 'MozTransform' in document.body.style;
-				if(!can) can = 'webkitTransform' in document.body.style;
-				if(!can) can = 'msTransform' in document.body.style;
-				if(!can) can = 'OTransform' in document.body.style;
-				if(!can) can = 'transform' in document.body.style;
-				if(!can) can = 'Transform' in document.body.style;
-				return can;
-			}
-		</script>
 
 
 	</head>
 	
 	<body>
+		<div class="wrapper">
 		
 		<!-- ============================================================= HEADER ============================================================= -->
 		
@@ -149,11 +97,11 @@ footer {
 							<li><i class="icon-mobile contact"></i>(617) 394-1940</li>
 						</ul><!-- /.info -->
 						
-						<!-- ============================================================= LOGO MOBILE ============================================================= -->
+<!-- ============================================================= LOGO MOBILE ============================================================= -->
 						
 						<a class="navbar-brand" href="index.html"><img src="CD-logo-recolored3.png" class="logo" alt=""></a>
 						
-						<!-- ============================================================= LOGO MOBILE : END ============================================================= -->
+<!-- ============================================================= LOGO MOBILE : END ============================================================= -->
 						
 						<a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
 						
@@ -169,9 +117,13 @@ footer {
 					<div class="navbar-collapse collapse">
 						<div class="container">
 							
+<!-- ============================================================= LOGO ============================================================= -->
 							
 							
-							<!-- ============================================================= MAIN NAVIGATION ============================================================= -->
+<!-- ============================================================= LOGO : END ============================================================= -->
+							
+							
+<!-- ============================================================= MAIN NAVIGATION ============================================================= -->
 							
 							<ul class="nav navbar-nav center-block">
 								
@@ -198,45 +150,39 @@ footer {
 								<li class="dropdown">
 									<a href="recent.html" class="dropdown-toggle ">Recent</a>
 								</li><!-- /.dropdown -->
-								
-								
 							</ul><!-- /.nav -->
-							
-							<!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
-							
+<!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
 						</div><!-- /.container -->
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.yamm -->
 			</div><!-- /.navbar -->
 		</header>
 		
-		<!-- ============================================================= HEADER : END ============================================================= -->
+<!-- ============================================================= HEADER : END ============================================================= -->
 		
 		
-		<!-- ============================================================= MAIN ============================================================= -->
+<!-- ============================================================= MAIN ============================================================= -->
 		
-	
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-
-
-<div id = "scalecontainer">
-
-	<div id="damnithype_hype_container" style="position:relative;overflow:hidden;width:920px;height:480px;">
-		<script type="text/javascript" charset="utf-8" src="damnithype.hyperesources/damnithype_hype_generated_script.js?51816"></script>
+		<main>
+			
+			
+	<div id="Stage" class="EDGE-78790044">
 	</div>
-</div>
-
-
-
+			
+			
+			
+			
 		</main>
+		            <div class="push"></div>
 		
-		<!-- ============================================================= MAIN : END ============================================================= -->
+		</div>
+		
+<!-- ============================================================= MAIN : END ============================================================= -->
 		
 		
-		<!-- ============================================================= FOOTER ============================================================= -->
-		
-		<footer class="dark-bg">		  
+<!-- ============================================================= FOOTER ============================================================= -->
+		<div class="footer">
+		<footer class="dark-bg ">		  
 			<div class="footer-bottom">
 				<div class="container inner">
 					<p class="pull-left">© 2014 Competition Dynamics. All rights reserved.</p>
@@ -251,25 +197,21 @@ footer {
 				</div><!-- .container -->
 			</div><!-- .footer-bottom -->
 		</footer>
+		</div>
 		
-		<!-- ============================================================= FOOTER : END ============================================================= -->
+<!-- ============================================================= FOOTER : END ============================================================= -->
 		
 		<!-- JavaScripts placed at the end of the document so the pages load faster -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.easing.1.3.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-		<script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
-		<script src="assets/js/skrollr.min.js"></script>
+		
 		<!-- For demo purposes – can be removed on production -->
-		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
-		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
-		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
-		<link href="assets/css/pink.css" rel="alternate stylesheet" title="Pink color">
-		<link href="assets/css/purple.css" rel="alternate stylesheet" title="Purple color">
-		<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
-		<link href="assets/css/navy.css" rel="alternate stylesheet" title="Navy color">
-		<link href="assets/css/gray.css" rel="alternate stylesheet" title="Gray color">
 		
 
 	</body>
 </html>
+
+
+
+
+
+
+

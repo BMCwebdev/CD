@@ -149,13 +149,13 @@
 	<key>guidesAreVisible</key>
 	<true/>
 	<key>lastCheckDate</key>
-	<date>2014-12-03T06:23:26Z</date>
+	<date>2014-12-11T06:24:41Z</date>
 	<key>layout</key>
 	<dict>
 		<key>keyframeTimelineHeight</key>
-		<real>171</real>
+		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>0 50 1440 827 0 0 1440 877 </string>
+		<string>1560 -104 1357 981 1440 -150 1680 1027 </string>
 		<key>openTabs</key>
 		<array/>
 		<key>selectedTabIndex</key>
@@ -793,13 +793,13 @@
 				<key>timeCursors</key>
 				<dict>
 					<key>kTimelineDefaultIdentifier</key>
-					<real>7.0666666030883789</real>
+					<real>7</real>
 				</dict>
 				<key>timescale</key>
 				<integer>60</integer>
 			</dict>
 			<key>canvasSize</key>
-			<string>{1440, 707}</string>
+			<string>{1357, 557}</string>
 			<key>context</key>
 			<dict>
 				<key>currentTimelineIdentifier</key>
@@ -866,7 +866,7 @@
 							<key>identifier</key>
 							<string>FontSize</string>
 							<key>objectValue</key>
-							<string>36px</string>
+							<string>28px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2852,7 +2852,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>F614C17F-95FF-4A59-A67F-8E88E41757B8-489-000000AEDA839501</string>
+									<string>473914FF-D969-4520-888A-70C2CB610C02-9456-000047797886B675</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -2904,7 +2904,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>F614C17F-95FF-4A59-A67F-8E88E41757B8-489-000000AEDA839501</string>
+									<string>473914FF-D969-4520-888A-70C2CB610C02-9456-000047797886B675</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -2956,7 +2956,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>F614C17F-95FF-4A59-A67F-8E88E41757B8-489-000000AEDA839501</string>
+									<string>473914FF-D969-4520-888A-70C2CB610C02-9456-000047797886B675</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -2975,6 +2975,40 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 								<integer>0</integer>
 								<key>uuid</key>
 								<string>9DE51B28-C341-41F7-AB3B-6ABD86F875E9-3880-000019FFC93FB1C6</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>2.5</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>0.000000</string>
+								</dict>
+								<key>identifier</key>
+								<string>Opacity</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>13</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>0.000000</string>
+								</dict>
+								<key>timingFunction</key>
+								<string>easeinout</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>5D2843E5-5E0D-494C-9130-8C092C3F1889-226-00001086C763FC0E</string>
 								<key>zIndex</key>
 								<integer>1</integer>
 							</dict>
@@ -3076,7 +3110,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>DC5E5CDE-6FF6-4EE7-9729-71BD3DA00CBC-489-000000AEDA866476</string>
+									<string>A856FADC-A6BC-455B-91B7-0EF82ED4F412-9456-000047797889772E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3128,7 +3162,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>DC5E5CDE-6FF6-4EE7-9729-71BD3DA00CBC-489-000000AEDA866476</string>
+									<string>A856FADC-A6BC-455B-91B7-0EF82ED4F412-9456-000047797889772E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3180,7 +3214,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>DC5E5CDE-6FF6-4EE7-9729-71BD3DA00CBC-489-000000AEDA866476</string>
+									<string>A856FADC-A6BC-455B-91B7-0EF82ED4F412-9456-000047797889772E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3235,40 +3269,6 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 								<string>27CB419B-04BD-4417-A0AD-E3A75A27061F-226-000005575F1E392A</string>
 								<key>zIndex</key>
 								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>2.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0.000000</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>13</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0.000000</string>
-								</dict>
-								<key>timingFunction</key>
-								<string>easeinout</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>5D2843E5-5E0D-494C-9130-8C092C3F1889-226-00001086C763FC0E</string>
-								<key>zIndex</key>
-								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -3334,7 +3334,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>5C1023FB-7950-45A7-AFD1-B4AAF47F6C2F-489-000000AEDA87EBC0</string>
+									<string>C78CDB8F-49DB-4158-BC06-12D3A9E3ED12-9456-00004779788B16C5</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3386,7 +3386,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>5C1023FB-7950-45A7-AFD1-B4AAF47F6C2F-489-000000AEDA87EBC0</string>
+									<string>C78CDB8F-49DB-4158-BC06-12D3A9E3ED12-9456-00004779788B16C5</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3472,7 +3472,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>3B398156-0258-439E-B2CF-1B8F697F4693-489-000000AEDA88D8BC</string>
+									<string>065FBE88-D9DB-45F6-959A-E1F754C5B729-9456-00004779788C1880</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -3524,7 +3524,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>3B398156-0258-439E-B2CF-1B8F697F4693-489-000000AEDA88D8BC</string>
+									<string>065FBE88-D9DB-45F6-959A-E1F754C5B729-9456-00004779788C1880</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -3576,7 +3576,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>5C1023FB-7950-45A7-AFD1-B4AAF47F6C2F-489-000000AEDA87EBC0</string>
+									<string>C78CDB8F-49DB-4158-BC06-12D3A9E3ED12-9456-00004779788B16C5</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3662,7 +3662,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>3B398156-0258-439E-B2CF-1B8F697F4693-489-000000AEDA88D8BC</string>
+									<string>065FBE88-D9DB-45F6-959A-E1F754C5B729-9456-00004779788C1880</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -3894,6 +3894,40 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>1.000000</string>
+								</dict>
+								<key>identifier</key>
+								<string>Opacity</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>13</string>
+								<key>startTime</key>
+								<real>2.5</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>0.000000</string>
+								</dict>
+								<key>timingFunction</key>
+								<string>easeinout</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>8DE7308C-063D-4E94-91D3-58B592915B43-3880-00001B035A811CA6</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>2</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
 									<string>Height</string>
 									<key>objectValue</key>
 									<string>267px</string>
@@ -4020,7 +4054,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>8B51561C-ED9B-44D0-B1D5-A515C0B38E68-489-000000AEDA8BC5C5</string>
+									<string>FA04355C-6189-4A99-B283-7379481E60E7-9456-00004779788F0616</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -4072,7 +4106,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>8B51561C-ED9B-44D0-B1D5-A515C0B38E68-489-000000AEDA8BC5C5</string>
+									<string>FA04355C-6189-4A99-B283-7379481E60E7-9456-00004779788F0616</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -4124,7 +4158,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>4899C6F3-6328-4406-BD04-E0EC589B83D9-489-000000AEDA8C7ED9</string>
+									<string>7F0F1C55-1303-4906-A4B8-2F888F5D0895-9456-00004779788FBE3A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4210,7 +4244,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>4899C6F3-6328-4406-BD04-E0EC589B83D9-489-000000AEDA8C7ED9</string>
+									<string>7F0F1C55-1303-4906-A4B8-2F888F5D0895-9456-00004779788FBE3A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4262,7 +4296,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>8B51561C-ED9B-44D0-B1D5-A515C0B38E68-489-000000AEDA8BC5C5</string>
+									<string>FA04355C-6189-4A99-B283-7379481E60E7-9456-00004779788F0616</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -4283,40 +4317,6 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 								<string>162E8D7E-3A5D-4369-BA16-59D8A025E3E6-3880-00001A47B6ECCDD9</string>
 								<key>zIndex</key>
 								<integer>8</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>2</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>1.000000</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>13</string>
-								<key>startTime</key>
-								<real>2.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0.000000</string>
-								</dict>
-								<key>timingFunction</key>
-								<string>easeinout</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>8DE7308C-063D-4E94-91D3-58B592915B43-3880-00001B035A811CA6</string>
-								<key>zIndex</key>
-								<integer>9</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -4348,7 +4348,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>4899C6F3-6328-4406-BD04-E0EC589B83D9-489-000000AEDA8C7ED9</string>
+									<string>7F0F1C55-1303-4906-A4B8-2F888F5D0895-9456-00004779788FBE3A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4639,6 +4639,33 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
+								<string>Opacity</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>13</string>
+								<key>startTime</key>
+								<real>4.5</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>1.000000</string>
+								</dict>
+								<key>timingFunction</key>
+								<string>easeinout</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>13FBD11D-FB18-43D8-A58C-80C4DDD406C9-3880-00001B080E339257</string>
+								<key>zIndex</key>
+								<integer>3</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
@@ -4820,7 +4847,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>2CE30219-DCAA-4D05-B172-E6C4FDF3AD7E-489-000000AEDA902CFD</string>
+									<string>2729CFAE-57BB-443D-B0C2-CCA0D9C165CC-9456-0000477978936EB7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -4892,7 +4919,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>170E7C92-4A17-4A9C-9615-C22F5687FBC4-489-000000AEDA90C2DD</string>
+									<string>9C01A65C-51BE-488D-9235-ADF70509FBBC-9456-0000477978941D2D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4937,7 +4964,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>2CE30219-DCAA-4D05-B172-E6C4FDF3AD7E-489-000000AEDA902CFD</string>
+									<string>2729CFAE-57BB-443D-B0C2-CCA0D9C165CC-9456-0000477978936EB7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -5009,7 +5036,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>170E7C92-4A17-4A9C-9615-C22F5687FBC4-489-000000AEDA90C2DD</string>
+									<string>9C01A65C-51BE-488D-9235-ADF70509FBBC-9456-0000477978941D2D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -5054,7 +5081,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>2CE30219-DCAA-4D05-B172-E6C4FDF3AD7E-489-000000AEDA902CFD</string>
+									<string>2729CFAE-57BB-443D-B0C2-CCA0D9C165CC-9456-0000477978936EB7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>7</string>
@@ -5099,7 +5126,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 										</dict>
 									</array>
 									<key>oid</key>
-									<string>170E7C92-4A17-4A9C-9615-C22F5687FBC4-489-000000AEDA90C2DD</string>
+									<string>9C01A65C-51BE-488D-9235-ADF70509FBBC-9456-0000477978941D2D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -5188,33 +5215,6 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 								<string>930C2D03-0EAC-40D8-A6D9-5441C63A442D-6767-000029DCABD309B7</string>
 								<key>zIndex</key>
 								<integer>18</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>13</string>
-								<key>startTime</key>
-								<real>4.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>1.000000</string>
-								</dict>
-								<key>timingFunction</key>
-								<string>easeinout</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>13FBD11D-FB18-43D8-A58C-80C4DDD406C9-3880-00001B080E339257</string>
-								<key>zIndex</key>
-								<integer>19</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -5829,7 +5829,7 @@ property, and international trade.&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 			<string>{0, 0}</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>3</string>
+				<string>34</string>
 			</array>
 			<key>splitHeight</key>
 			<real>544</real>
